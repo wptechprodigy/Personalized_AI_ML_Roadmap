@@ -1,0 +1,38 @@
+# 🚀 AI/ML Learning Roadmap Progress Tracker
+**Target Role:** AI Product Engineer
+**Current Phase:** Phase 1 - Foundations & The ML Bridge
+**Timeline:** 6-8 Months
+
+---
+
+## ✅ Phase 1: Foundations (Month 1-2)
+*Focus: Leveraging Physics/Math into High-Performance Python*
+
+### Week 1: Numerical Computing & Linear Algebra (THE BRIDGE)
+- [x] **Hardware Benchmarking:** Verified 122x speedup on M1 Pro using Vectorization.
+- [x] **Linear Algebra in Code:** Implemented Normal Equation ($\theta = (X^T X)^{-1} X^T y$) from scratch.
+- [x] **NumPy Core Mastery:** Understanding Broadcasting, Memory Views, and SIMD (Mastered).
+- [x] **Career Asset:** "Senior Perspective" documentation of Week 1 concepts (Completed: WEEK1_TECHNICAL_REPORT.md).
+
+### Week 2: Data Wrangling & Statistics (THE TRIAGE)
+- [ ] **Pandas Foundations:** Slicing, filtering, and "Data Triage" for FinTech.
+- [ ] **Statistics for ML:** Distributions, Outliers, and Correlation.
+- [ ] **Project:** FinTech Data Audit Report.
+
+---
+
+## 🛠 Active Technical Concepts (The 20% that matters)
+| Concept | Status | Application |
+| :--- | :--- | :--- |
+| **Vectorization** | Mastered | Performance optimization for M1 Pro. |
+| **Broadcasting** | Learning | Adding Bias/Intercepts to datasets. |
+| **Normal Equation**| Mastered | Solving Linear Regression without libraries. |
+| **Matrix Syntax** | Learning | `@` vs `*` and `.T` operations. |
+
+---
+
+## 📅 Roadmap Schedule
+- **Month 1-2:** Foundations & The ML Bridge (FinTech Anomaly Detector)
+- **Month 3-4:** Deep Learning & NLP (Llama-3 Fine-tuning)
+- **Month 5-6:** AI Product Engineering (RAG + iOS Integration)
+- **Month 7-8:** MLOps & Market Positioning (The Senior Pivot)
