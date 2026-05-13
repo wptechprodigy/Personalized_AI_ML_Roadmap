@@ -15,9 +15,9 @@
 - [x] **Career Asset:** "Senior Perspective" documentation of Week 1 concepts (Completed: WEEK1_TECHNICAL_REPORT.md).
 
 ### Week 2: Data Wrangling & Statistics (THE TRIAGE)
-- [ ] **Pandas Foundations:** Slicing, filtering, and "Data Triage" for FinTech.
-- [ ] **Statistics for ML:** Distributions, Outliers, and Correlation.
-- [ ] **Project:** FinTech Data Audit Report.
+- [x] **Pandas Foundations:** Added `pandas_bridge.py` for filtering, missing values, grouping, and simple feature engineering.
+- [x] **Statistics for ML:** Added outlier detection, missing-value checks, and correlations in `fintech_data_audit.py`.
+- [x] **Project:** Added automated Week 2 audit output in `week2_outputs/WEEK2_DATA_AUDIT_REPORT.md`.
 
 ---
 
@@ -25,9 +25,11 @@
 | Concept | Status | Application |
 | :--- | :--- | :--- |
 | **Vectorization** | Mastered | Performance optimization for M1 Pro. |
-| **Broadcasting** | Learning | Adding Bias/Intercepts to datasets. |
+| **Broadcasting** | Mastered | Adding Bias/Intercepts to datasets. |
 | **Normal Equation**| Mastered | Solving Linear Regression without libraries. |
-| **Matrix Syntax** | Learning | `@` vs `*` and `.T` operations. |
+| **Matrix Syntax** | Mastered | `@` vs `*` and `.T` operations. |
+| **Pandas Filtering** | Learning | Isolating suspicious rows and null-heavy slices. |
+| **Outlier Detection** | Learning | Auditing long-tail transaction values before modeling. |
 
 ---
 

@@ -23,8 +23,24 @@ In my first week, I focused on porting my mathematical foundations into high-per
 - `vectorization_test.py`: Benchmark script for M1 Pro hardware acceleration.
 - `linear_regression_scratch.py`: Linear regression implementation using the Normal Equation.
 - `numpy_bridge.py`: Atomic lab for Physics-to-ML concepts (Broadcasting, etc.).
+- `pandas_bridge.py`: Pandas bridge from arrays to labeled transaction tables.
+- `fintech_data_audit.py`: Week 2 audit script for missing values, invalid amounts, outliers, and correlations.
 - `WEEK1_TECHNICAL_REPORT.md`: Detailed technical audit of Week 1 findings.
 - `ROADMAP_PROGRESS.md`: Live tracking of the 54 roadmap topics.
+
+## 🧭 Week 2: Data Triage & Statistical Audit
+Week 2 moves from clean mathematical examples to messy tabular data.
+
+### Week 2 Goals:
+- Learn the 20% of Pandas needed for ML work: filtering, null handling, grouping, and feature creation.
+- Audit a realistic FinTech-style dataset for missing values, negative amounts, outliers, and late-night activity.
+- Generate a repeatable report and charts before moving into modeling.
+
+### Week 2 Commands:
+```bash
+python pandas_bridge.py
+python fintech_data_audit.py
+```
 
 ## 🛠 Tech Stack
 - **Languages:** Python 3.11+, Swift
