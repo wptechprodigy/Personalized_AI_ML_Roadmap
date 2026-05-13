@@ -5,7 +5,8 @@ import numpy as np
 import pandas as pd
 
 
-OUTPUT_DIR = Path("week2_outputs")
+BASE_DIR = Path(__file__).resolve().parent
+OUTPUT_DIR = BASE_DIR / "week2_outputs"
 
 
 def build_synthetic_dataset(size=5000, seed=42):
