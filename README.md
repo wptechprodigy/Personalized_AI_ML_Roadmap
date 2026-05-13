@@ -20,13 +20,24 @@ In my first week, I focused on porting my mathematical foundations into high-per
 | **Vectorized (NumPy)** | **0.0049s** |
 
 ## 📂 Repository Structure
-- `vectorization_test.py`: Benchmark script for M1 Pro hardware acceleration.
-- `linear_regression_scratch.py`: Linear regression implementation using the Normal Equation.
-- `numpy_bridge.py`: Atomic lab for Physics-to-ML concepts (Broadcasting, etc.).
-- `pandas_bridge.py`: Pandas bridge from arrays to labeled transaction tables.
-- `fintech_data_audit.py`: Week 2 audit script for missing values, invalid amounts, outliers, and correlations.
-- `WEEK1_TECHNICAL_REPORT.md`: Detailed technical audit of Week 1 findings.
-- `ROADMAP_PROGRESS.md`: Live tracking of the 54 roadmap topics.
+- `WeekOne/`: Week 1 scripts and report for vectorization, NumPy, and linear regression foundations.
+- `WeekTwo/`: Week 2 scripts, report, and audit outputs for Pandas and data triage.
+- `ROADMAP_PROGRESS.md`: Live tracking of the roadmap and weekly milestones.
+- `README.md`: Overview of the roadmap, structure, and execution commands.
+
+### WeekOne Contents
+- `WeekOne/vectorization_test.py`
+- `WeekOne/linear_regression_scratch.py`
+- `WeekOne/numpy_bridge.py`
+- `WeekOne/WEEK1_TECHNICAL_REPORT.md`
+
+### WeekTwo Contents
+- `WeekTwo/pandas_bridge.py`
+- `WeekTwo/fintech_data_audit.py`
+- `WeekTwo/WEEK2_TECHNICAL_REPORT.md`
+- `WeekTwo/week2_outputs/WEEK2_DATA_AUDIT_REPORT.md`
+- `WeekTwo/week2_outputs/amount_distribution.png`
+- `WeekTwo/week2_outputs/transactions_by_hour.png`
 
 ## 🧭 Week 2: Data Triage & Statistical Audit
 Week 2 moves from clean mathematical examples to messy tabular data.
@@ -38,8 +49,15 @@ Week 2 moves from clean mathematical examples to messy tabular data.
 
 ### Week 2 Commands:
 ```bash
-python pandas_bridge.py
-python fintech_data_audit.py
+python WeekTwo/pandas_bridge.py
+python WeekTwo/fintech_data_audit.py
+```
+
+### Week 1 Commands:
+```bash
+python WeekOne/vectorization_test.py
+python WeekOne/linear_regression_scratch.py
+python WeekOne/numpy_bridge.py
 ```
 
 ## 🛠 Tech Stack

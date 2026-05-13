@@ -9,15 +9,15 @@
 *Focus: Leveraging Physics/Math into High-Performance Python*
 
 ### Week 1: Numerical Computing & Linear Algebra (THE BRIDGE)
-- [x] **Hardware Benchmarking:** Verified 122x speedup on M1 Pro using Vectorization.
-- [x] **Linear Algebra in Code:** Implemented Normal Equation ($\theta = (X^T X)^{-1} X^T y$) from scratch.
-- [x] **NumPy Core Mastery:** Understanding Broadcasting, Memory Views, and SIMD (Mastered).
-- [x] **Career Asset:** "Senior Perspective" documentation of Week 1 concepts (Completed: WEEK1_TECHNICAL_REPORT.md).
+- [x] **Hardware Benchmarking:** Verified 122x speedup on M1 Pro using `WeekOne/vectorization_test.py`.
+- [x] **Linear Algebra in Code:** Implemented Normal Equation ($\theta = (X^T X)^{-1} X^T y$) from scratch in `WeekOne/linear_regression_scratch.py`.
+- [x] **NumPy Core Mastery:** Understanding Broadcasting, Memory Views, and SIMD (Mastered in `WeekOne/numpy_bridge.py`).
+- [x] **Career Asset:** "Senior Perspective" documentation of Week 1 concepts (Completed: `WeekOne/WEEK1_TECHNICAL_REPORT.md`).
 
 ### Week 2: Data Wrangling & Statistics (THE TRIAGE)
-- [x] **Pandas Foundations:** Added `pandas_bridge.py` for filtering, missing values, grouping, and simple feature engineering.
-- [x] **Statistics for ML:** Added outlier detection, missing-value checks, and correlations in `fintech_data_audit.py`.
-- [x] **Project:** Added automated Week 2 audit output in `week2_outputs/WEEK2_DATA_AUDIT_REPORT.md`.
+- [x] **Pandas Foundations:** Added `WeekTwo/pandas_bridge.py` for filtering, missing values, grouping, and simple feature engineering.
+- [x] **Statistics for ML:** Added outlier detection, missing-value checks, and correlations in `WeekTwo/fintech_data_audit.py`.
+- [x] **Project:** Added automated Week 2 audit output in `WeekTwo/week2_outputs/WEEK2_DATA_AUDIT_REPORT.md`.
 
 ---
 
